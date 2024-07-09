@@ -4,7 +4,7 @@
   "description": "this is for website building",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,9 @@
     "graphql-tools": "^9.0.1",
     "mongodb": "^6.8.0",
     "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
