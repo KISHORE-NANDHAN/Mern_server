@@ -30,6 +30,9 @@ const resolvers = {
         throw new Error('Error retrieving limited users');
       }
     },
+    getAllUsers : async ()=>{
+      return await User.find()
+    }
   },
   Mutation: {
     createUser: async (_, { input }) => {

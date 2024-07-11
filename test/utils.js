@@ -4,4 +4,7 @@
 function getData(){
     return 'real data';
 }
-module.exports = getData;
+function getRaw(){
+    return 'raw data';
+}
+module.exports = {getData, getRaw};
